@@ -17,7 +17,7 @@ export default async function handler(req, res) {
       without any explanation, without no empty lines, only JSON format like {"mbti": "INPT", "emoji": "3 emoji", "fortune": "in Korean"}`;
 
       const completions = await openai.createCompletion({
-        model: "text-davinci-003",
+        model: "text-davinci-004",
         prompt: prompt,
         max_tokens: 200,
       });
