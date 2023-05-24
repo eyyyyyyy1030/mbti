@@ -27,7 +27,7 @@ export default function Home() {
   
 
   return (
-    <div className="min-h-screen bg-black-50 flex flex-col justify-center items-center">
+    <div className="min-h-screen bg-blue-50 flex flex-col justify-center items-center">
       <h1 className="text-3xl font-bold text-primary mb-8">당신의 성격을 입력하면 MBTI를 알려드립니다.</h1>
       <form onSubmit={handleSubmit} className="flex flex-col items-center space-y-4">
         <textarea
@@ -36,7 +36,7 @@ export default function Home() {
           placeholder="당신의 성격을 입력해주세요."
           className="w-96 h-32 p-4 rounded-lg shadow-md border border-gray-300 resize-none focus:outline-none focus:ring-2 focus:ring-primary text-black"
         />
-        <button type="submit" className="px-6 py-2 rounded-lg bg-primary text-white font-medium shadow-md hover:bg-blue-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary">
+        <button type="submit" className="px-6 py-2 rounded-lg bg-black text-white font-medium shadow-md hover:bg-blue-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary">
           결과 보기
         </button>
       </form>
